@@ -11,7 +11,16 @@ Text notifications can be sent via email routing.
 ## To Run
 Make sure you are running [python3](https://realpython.com/installing-python/) on your system.
 
-`python3 plexAlive.py`
+1. Search and replace all fields in the script beginning with *** :
+
+   - ***PHONE NUMBER*** : Phone number to receive text if server goes down/back up
+   - ***EMAIL*** : email is required for text message routing
+   - ***PASSWORD*** : email account password
+   - ***SERVER IP*** : IP address of Plex server host
+
+For email, I recommend creating a dummy account so you can turn on [access to less secure apps](https://support.google.com/accounts/answer/6010255?hl=en)
+
+2. `python3 plexAlive.py`
 or
 `python3 plexAlive.py &` to run in background
 
