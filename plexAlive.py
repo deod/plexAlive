@@ -44,7 +44,7 @@ def restartPlex():
     logging.info("Restarting Plex Server App")
     subprocess.run(["killall", "\"Plex Media Server\""])
     # restart plex server
-    subprocess.getoutput("open ~/Applications/Plex\\ Media\\ Server.app/")
+    subprocess.getoutput("open /Applications/Plex\\ Media\\ Server.app/")
 
 def checkAlive():
     server = "***SERVER IP***"
